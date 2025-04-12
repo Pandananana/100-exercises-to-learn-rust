@@ -5,5 +5,9 @@
       rustup
       cargo 
       pkg-config
+      workshop-runner
     ];
+
+    # Set an alternative temporary directory
+    TMPDIR = "/home/aw/.tmp";
 }
